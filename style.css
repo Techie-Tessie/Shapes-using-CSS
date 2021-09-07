@@ -1,0 +1,32 @@
+#square{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+}
+
+#rectangle{
+    height: 100px;
+    width: 150px;
+    background-color: chartreuse;
+}
+
+/* square => border-radius => circle  */
+
+/* One value - border-radius: 15px; (the value applies to all four corners, which are rounded equally: */
+
+#circle{
+    height: 100px;
+    width: 100px;
+    background-color: coral;
+    border-radius: 3rem;
+}
+
+/* Four values - border-radius: 15px 50px 30px 5px; (first value applies to top-left corner, second value applies to top-right corner, third value applies to bottom-right corner, and fourth value applies to bottom-left corner): */
+
+#semi-circle{
+    height: 100px;
+    width: 100px;
+    background-color: forestgreen;
+    border-radius: 50%/100% 100% 0 0;
+
+}
