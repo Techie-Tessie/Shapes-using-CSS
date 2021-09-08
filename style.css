@@ -24,7 +24,7 @@
 /* Four values - border-radius: 15px 50px 30px 5px; (first value applies to top-left corner, second value applies to top-right corner, third value applies to bottom-right corner, and fourth value applies to bottom-left corner): */
 
 #semi-circle{
-    height: 100px;
+    height: 75px;
     width: 100px;
     background-color: forestgreen;
     border-radius: 50%/100% 100% 0 0;
